@@ -1,0 +1,136 @@
+{
+    "tlm_pkts": [
+        {
+            "_id": "60f89d904041f73f3a616916",
+            "tlm_packet_name": "CSP_INFO_MESSAGE",
+            "sub_system": "FILE_SYSTEM",
+            "destination_group": "CSP",
+            "csp_port": 31,
+            "response": "",
+            "update_frequency": -1,
+            "file_id": -1,
+            "allow_short": "YES",
+            "non_telem": "",
+            "tlm_id": 127,
+            "fields": [
+                "TLM_ID",
+                "LIBCSP_DEBUG_LEVEL"
+            ],
+            "satellite": [
+                "BW3"
+            ],
+            "enabled_in_production": false
+        },
+        {
+            "_id": "60f9d3345879f31678789a21",
+            "tlm_packet_name": "New TLM Packet",
+            "sub_system": "FILE_SYSTEM",
+            "destination_group": "CSP",
+            "csp_port": 30,
+            "response": "",
+            "update_frequency": -1,
+            "file_id": -1,
+            "allow_short": "",
+            "non_telem": "",
+            "tlm_id": 127,
+            "fields": [
+                "TLM_ID",
+                "LIBCSP_DEBUG_LEVEL",
+                "LIBCSP_INFO_CODE",
+                "LIBCSP_INFO_TEXT"
+            ],
+            "satellite": [
+                "BW3"
+            ],
+            "enabled_in_production": false
+        },
+        {
+            "_id": "60f9d9ced28c93183bafc7cc",
+            "tlm_packet_name": "CSP_INFO_MESSAGE",
+            "sub_system": "FILE_SYSTEM",
+            "destination_group": "CSP",
+            "csp_port": 30,
+            "response": "",
+            "update_frequency": -1,
+            "file_id": -1,
+            "allow_short": "",
+            "non_telem": "",
+            "tlm_id": 127,
+            "fields": [
+                "TLM_ID",
+                "LIBCSP_DEBUG_LEVEL",
+                "LIBCSP_INFO_CODE",
+                "LIBCSP_INFO_TEXT"
+            ],
+            "satellite": [
+                "BW3"
+            ],
+            "enabled_in_production": false
+        }
+    ],
+    "tlm_points": [
+        {
+            "_id": "60ee368fe57b8819f2555eaf",
+            "tlm_point_name": "Exampe_Packet",
+            "type": "unsigned",
+            "size_bytes": 1,
+            "units": "m/s",
+            "limit": false,
+            "red_low_limit": -1,
+            "red_high_limit": -1,
+            "yellow_low_limit": -1,
+            "yellow_high_limit": -1,
+            "green_low_limit": -1,
+            "list" : ["GENERAL_OK=0","GENERAL_UNINITIALIZED=11"],
+            "description": "",
+            "time_tag_required": false,
+            "array_size": 0,
+            "satellite": [
+                "BW3"
+            ],
+            "enabled_in_production": false
+        },
+        {
+            "_id": "60ee3963e57b8819f2555eb0",
+            "tlm_point_name": "Exampe_Packet",
+            "type": "unsigned",
+            "size_bytes": 1,
+            "units": "m/s",
+            "limit": false,
+            "red_low_limit": null,
+            "red_high_limit": null,
+            "yellow_low_limit": null,
+            "yellow_high_limit": null,
+            "green_low_limit": null,
+            "list" : ["GENERAL_OK=0","GENERAL_UNINITIALIZED=11"],
+            "description": "",
+            "time_tag_required": false,
+            "array_size": 0,
+            "satellite": [
+                "BW3"
+            ],
+            "enabled_in_production": false
+        },
+        {
+            "_id": "60ef4742c208a0395284f417",
+            "tlm_point_name": "Exampe_Packet",
+            "type": "unsigned",
+            "size_bytes": 1,
+            "units": "m/s",
+            "limit": false,
+            "red_low_limit": -1,
+            "red_high_limit": -1,
+            "yellow_low_limit": -1,
+            "yellow_high_limit": -1,
+            "green_low_limit": -1,
+            "list" : ["GENERAL_OK=0","GENERAL_UNINITIALIZED=11"],
+            "description": "",
+            "time_tag_required": true,
+            "array_size": 0,
+            "satellite": [
+                "BW3"
+            ],
+            "enabled_in_production": false
+        }
+    ]
+}
